@@ -19,7 +19,7 @@
     "express",
     "mongo"
   ],
-  "author": "Daniel 'The Code Whisperer' Stern",
+  "author": "Shirin",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",

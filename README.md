@@ -15,11 +15,6 @@ First, install the programs required to run the application:
 - [Mongo.DB](https://docs.mongodb.com/manual/installation/)
 
 Next, clone this repository and install dependencies:
-
-```
-git clone git@github.com:danielstern/express-react-fullstack.git
-```
-
 ```
 npm install
 ```
@@ -53,19 +48,3 @@ Try:
 2. If there error mentions any particular file, visit that file and make sure you didn't make any common errors (capitalization of property names, forgetting to destructure paramaters with curly brackets)
 3. Still no luck? Clone the finished repo and prune away parts of it until you are at the point you left off.
 
-## Challenge Task Solutions
-
-### Connected Username Component
-1. Create a [connected username component](https://github.com/danielstern/express-react-fullstack/blob/master/src/app/components/UsernameDisplay.jsx) which matches user data with an ID provided as a prop.
-2. Update the server-side state assembly process to include the usernames (but not passwords or any sensitive data) of any users which will be relevant to the current session.
-
-### Sign Up 
-This version of the application is found at the [Add Sign Up Branch](https://github.com/danielstern/express-react-fullstack/tree/add-signup/src/app/components).
-
-1. Add a link to the sign up page from the login page.
-2. Create a Sign Up route, which is almost identical to the Login route.
-3. Add a saga to communicate requests from the Login Route to the server.
-4. Add a route to the server which creates new users in the database.
-
-### Security
-Coming February 2019.
